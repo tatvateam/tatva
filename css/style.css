@@ -501,6 +501,12 @@ body{
    margin-right: 20px;
    padding: 21px 0 15px;
  }
+
+ @media screen and (max-width: 1200px) {
+  .footer-section.spad {
+    padding-top: 50px;
+  }
+ }
  
  .header-info-box .hib-icon {
    float: left;
