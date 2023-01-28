@@ -2095,7 +2095,7 @@ body{
      text-align: center;
      display: flex;
      justify-content: space-between;
-     width: 80%;
+     width: 100%;
      align-items: center;
    }
    .site-logo {
@@ -2112,9 +2112,10 @@ body{
    }
    .header-right .header-info-box.lang a {
     padding: 5px 10px;
-    background: #222;
+    background: #111;
     border-radius: 4px;
     color: #fff !important;
+    margin-right: 120px;
    }
    .header-right .header-info-box {
      display: none;
@@ -2213,12 +2214,12 @@ body{
    }
  }
 
- @media only screen and (max-width: 600px) {
+ /* @media only screen and (max-width: 600px) {
   .site-navbar {
     justify-content: flex-start !important;
     width: auto !important;
   }
- }
+ } */
  /* Small Mobile :320px. */
  
  @media only screen and (max-width: 479px) {
